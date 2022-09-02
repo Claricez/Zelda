@@ -11,7 +11,8 @@ int main( )
 
     Sword royalGuardSword;
     royalGuardSword.print();
-
+    royalGuardSword.decrement();
+    royalGuardSword.print();
     return 0;
 
 }

@@ -8,11 +8,13 @@ public:
     ~Sword();
 
     void print( ) const;
+    void decrement( );
 
 private:
 
     double strength;
     int durability;
+    double getStrength() const;
 
 };
 
